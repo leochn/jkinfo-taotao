@@ -40,4 +40,10 @@ public class Test extends BasePojo {
 		this.descp = descp == null ? null : descp.trim();
 	}
 
+	@Override
+	public String toString() {
+		return "Test [id=" + id + ", title=" + title + ", descp=" + descp + "]";
+	}
+	
+	
 }
