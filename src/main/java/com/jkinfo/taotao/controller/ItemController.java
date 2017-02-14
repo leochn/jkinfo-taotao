@@ -23,7 +23,7 @@ public class ItemController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(ItemController.class);
 
-/*	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<JsonResult> queryList(
 			@RequestParam(value = "page", defaultValue = "1") Integer page,
 			@RequestParam(value = "rows", defaultValue = "30") Integer rows) {
@@ -47,7 +47,7 @@ public class ItemController {
 			LOGGER.error("queryList=========fail===========查询失败,抛异常", e);
 		}
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
-	}*/
+	}
 	
 	@RequestMapping(value = "/queryList",method = RequestMethod.GET)
 	public ResponseEntity<JsonResult> queryListByWhereOrderBy(
