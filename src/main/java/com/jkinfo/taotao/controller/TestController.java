@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
 import com.jkinfo.taotao.pojo.Test;
 import com.jkinfo.taotao.service.TestService;
 
@@ -44,5 +45,5 @@ public class TestController {
         // 500
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
     }
-
+	
 }

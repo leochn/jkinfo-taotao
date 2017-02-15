@@ -13,6 +13,7 @@ com\jkinfo\taotao\service\BaseService.class
 com\jkinfo\taotao\service\impl\ItemServiceImpl.class
 com\jkinfo\taotao\service\impl\TestServiceImpl.class
 com\jkinfo\taotao\mapper\TestMapper.class
+com\jkinfo\taotao\mapper\ContentMapper.class
 com\jkinfo\taotao\service\ItemService.class
 com\jkinfo\taotao\controller\ItemController.class
 com\jkinfo\taotao\service\impl\BaseServiceImpl.class

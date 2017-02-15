@@ -12,5 +12,5 @@ public class TestServiceImpl extends BaseServiceImpl<Test> implements TestServic
 		item.setId(null);// 强制设置id为null，从数据库中自增长
 		return super.save(item);
 	}
-
+	
 }
